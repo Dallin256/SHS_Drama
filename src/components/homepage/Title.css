@@ -1,0 +1,30 @@
+.Title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000d61;
+  -webkit-text-stroke: 3px #ccbc2d;
+}
+
+.Title__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.Title__sumter {
+  margin: 0;
+  font-size: 80px;
+}
+
+.Title__high {
+  margin: 0 20px;
+  font-size: 80px;
+}
+
+.Title__drama {
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}

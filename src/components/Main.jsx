@@ -6,10 +6,12 @@ import EventBox from "./homepage/EventBox";
 import OfficerBox from "./homepage/Officerbox";
 import HistoryBox from "./homepage/HistoryBox";
 import SocialBox from "./homepage/SocialBox";
+import Title from "./homepage/Title";
 
 export default function Main({}) {
   return (
     <div className="main">
+      <Title></Title>
       <EventBox></EventBox>
       <OfficerBox></OfficerBox>
       <HistoryBox></HistoryBox>
