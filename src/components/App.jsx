@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 //component imports
 import Header from "./Header/Header.jsx";
+import Footer from "./Footer/Footer.jsx";
 import Main from "./Main.jsx";
 
 //constants
@@ -14,6 +15,8 @@ export default function App() {
   return (
     <>
       <Header></Header>
+      <Main></Main>
+      <Footer></Footer>
     </>
   );
 }
